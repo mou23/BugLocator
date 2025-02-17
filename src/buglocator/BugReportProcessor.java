@@ -111,7 +111,7 @@ public class BugReportProcessor {
 				}
 
 				if (!files.isEmpty()) {
-					String[] fixedFiles = files.split(".java");
+					String[] fixedFiles = files.split("\\.java");
 					for (String file : fixedFiles) {
 						if(file.length()>0)
 							bug.addFixedFile(file.trim()+".java");
