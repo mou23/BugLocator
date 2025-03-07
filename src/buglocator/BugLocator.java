@@ -6,19 +6,19 @@ import buglocator.property.Property;
 
 public class BugLocator {
 	public static void main(String[] args) {
-		 args = new String[12];
-		 args[0]="-b";
-		 args[1]="D:/FL/dataset/aspectj-updated-data.xml";
-		 args[2]="-s";
-		 args[3]="D:/FL/dataset/aspectj";
-		 args[4]="-a";
-		 args[5]="0.3";
-		 args[6]="-w";
-		 args[7]="D:/FL/dataset/temp";
-		 args[8]="-n";
-		 args[9]="aspectj_run_modified";
-		 args[10]="-i";
-		 args[11]="non-bugs-id-aspectj.txt";
+//		 args = new String[12];
+//		 args[0]="-b";
+//		 args[1]="D:/FL/dataset/aspectj-updated-data.xml";
+//		 args[2]="-s";
+//		 args[3]="D:/FL/dataset/aspectj/";
+//		 args[4]="-a";
+//		 args[5]="0.3";
+//		 args[6]="-w";
+//		 args[7]="D:/FL/dataset/temp";
+//		 args[8]="-n";
+//		 args[9]="aspectj_run_modified";
+//		 args[10]="-i";
+//		 args[11]="non-bugs-id-aspectj.txt";
 
 		try {
 //			if (args.length == 0)
